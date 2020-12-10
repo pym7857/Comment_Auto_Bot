@@ -30,9 +30,9 @@ link = 'https://lselectric.touchclass.com/lms/MyCourse?direction=asc&group=ALL&o
 driver = webdriver.Chrome('./chromedriver_win32/chromedriver.exe')
 driver.get(link)
 
-driver.find_element_by_name('Mb_Mail').send_keys('swsohn@lselectric.co.kr') # 아이디 '입력'
+driver.find_element_by_name('Mb_Mail').send_keys('~~~~') # 아이디 '입력'
 sleep(2)
-driver.find_element_by_name('Mb_Pw').send_keys('3256nhos@') # 패스워드 '입력' 
+driver.find_element_by_name('Mb_Pw').send_keys('~~~~') # 패스워드 '입력' 
 sleep(2)
 # 로그인 버튼 누르기
 driver.find_element_by_id('BTN_USER_LOGIN').click() 
